@@ -10,7 +10,7 @@ It is a usefull tool for web based accounting systems.
 ## Examples
 
 Include required libraries
-```render-html
+```html
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.2.228/pdf.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.2.228/build/pdf.worker.js"></script>
@@ -20,7 +20,7 @@ Include required libraries
 
 And the magic code that reads the input file in browser and renders preview and upon callback puts the values
 in fields
-```render-javascript
+```javascript
 function response(data) {
     console.log(data);
     $("#id_bank_account").val(data["bank_account"]);
@@ -36,6 +36,6 @@ $(document).ready(function(){
 
 
 
-![alt text](https://github.com/belda/jsqr/blob/master/screenshots/1.png?raw=true)
-![alt text](https://github.com/belda/jsqr/blob/master/screenshots/2.png?raw=true)
+![alt text](https://raw.githubusercontent.com/belda/jsqr/main/screenshots/1.png)
+![alt text](https://raw.githubusercontent.com/belda/jsqr/main/screenshots/2.png)
 
